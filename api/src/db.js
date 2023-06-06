@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_DATABASE, PORT } = process.env;
 
+// cambcianod estru
 const sequelize = new Sequelize(
   `postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${PORT}/${DB_DATABASE}`,
   {
